@@ -18,7 +18,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.error(err));
+  .catch((error) => console.error(error));
 
 // Define routes here
 
